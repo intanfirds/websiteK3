@@ -256,10 +256,12 @@
                     <img src="images\familymart-logo.jpg" alt="Family Mart Logo" height="40" class="mb-3">
                     <p class="mb-3">Komitmen kami terhadap Keselamatan dan Kesehatan Kerja (K3) menjadikan Family Mart tempat yang aman dan nyaman bagi karyawan dan pelanggan.</p>
                     <div class="social-links">
-                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/FamilyMartID" class="text-white me-3" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="https://www.instagram.com/familymartid" class="text-white me-3" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/company/familymart-indonesia" class="text-white me-3" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a href="https://www.youtube.com/@familymart" class="text-white me-3" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="https://x.com/FamilyMartID" class="text-white me-3" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.tiktok.com/@familymartindonesia" class="text-white me-3" target="_blank"><i class="fab fa-tiktok fa-lg"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4">
@@ -273,17 +275,16 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="mb-3">Informasi</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white-50">Karir</a></li>
-                        <li><a href="#" class="text-white-50">Kontak</a></li>
-                        <li><a href="#" class="text-white-50">Kebijakan Privasi</a></li>
-                        <li><a href="#" class="text-white-50">Syarat & Ketentuan</a></li>
+                        <li><a href="https://www.familymartindonesia.com/promo" class="text-white-50" target="_blank">Promo</a></li>
+                        <li><a href="http://fmi.familymartindonesia.com/walkin" class="text-white-50" target="_blank">Karir</a></li>
+                        <li><a href="https://fmimyadmin.familymartindonesia.com/Privacy" class="text-white-50" target="_blank">Syarat & Ketentuan</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="mb-3">Kontak Kami</h5>
                     <ul class="list-unstyled">
                         <li><i class="fas fa-map-marker-alt me-2"></i>Jl. MH Thamrin No. 1, Jakarta 10310</li>
-                        <li><i class="fas fa-phone me-2"></i>(021) 1234-5678</li>
+                        <li><i class="fas fa-phone me-2"></i>(+62) 898-3862-898</li>
                         <li><i class="fas fa-envelope me-2"></i>info.k3@familymart.co.id</li>
                         <li><i class="fas fa-clock me-2"></i>Senin - Jumat: 08:00 - 17:00</li>
                     </ul>
