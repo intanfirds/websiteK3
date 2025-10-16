@@ -10,6 +10,17 @@
                 <div class="col-lg-8" data-aos="fade-right">
                     <h1 class="display-4 fw-bold mb-4">Keselamatan dan Kesehatan Kerja Prioritas Kami</h1>
                     <p class="lead mb-4">Family Mart berkomitmen menciptakan lingkungan kerja yang aman, sehat, dan nyaman bagi seluruh karyawan dan pelanggan dengan standar tertinggi.</p>
+                    <style>
+                        .btn-light {
+                        background: transparent;
+                        color: white;
+                        border: 1px solid white;
+                        }
+                        .btn-light:hover {
+                        background: white;
+                        color: black;
+                        }
+                    </style>
                     <a href="{{ route('k3') }}" class="btn btn-light btn-lg me-3">Pelajari K3 Kami</a>
                     <a href="{{ route('about') }}" class="btn btn-light btn-lg me-3">Tentang Kami</a>
                 </div>
@@ -22,7 +33,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                    <div class="stat-number">400+</div>
+                    <div class="stat-number">100+</div>
                     <p class="text-family-blue fw-semibold">Toko di Seluruh Indonesia</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">

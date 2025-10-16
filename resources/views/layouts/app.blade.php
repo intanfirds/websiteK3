@@ -253,7 +253,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <img src="images\familymart-logo.jpg" alt="Family Mart Logo" height="40" class="mb-3">
+                    <img src="{{ asset('images/familymart-logo.jpg') }}" alt="Family Mart Logo" height="40" class="mb-3">
                     <p class="mb-3">Komitmen kami terhadap Keselamatan dan Kesehatan Kerja (K3) menjadikan Family Mart tempat yang aman dan nyaman bagi karyawan dan pelanggan.</p>
                     <div class="social-links">
                         <a href="https://www.facebook.com/FamilyMartID" class="text-white me-3" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
