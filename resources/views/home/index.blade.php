@@ -33,7 +33,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                    <div class="stat-number">100+</div>
+                    <div class="stat-number">1000+</div>
                     <p class="text-family-blue fw-semibold">Toko di Seluruh Indonesia</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
