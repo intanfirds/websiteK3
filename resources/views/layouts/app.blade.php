@@ -236,7 +236,7 @@
                         <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('k3') }}">K3 & Keamanan</a>
+                        <a class="nav-link" href="{{ route('k3') }}">Program K3</a>
                     </li>
                 </ul>
             </div>

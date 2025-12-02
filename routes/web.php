@@ -20,5 +20,8 @@ Route::prefix('k3')->group(function () {
     Route::get('/lingkungan-kerja-fisik', [K3Controller::class, 'lingkungan'])->name('k3.lingkungan');
     Route::get('/keselamatan-kerja', [K3Controller::class, 'keselamatan'])->name('k3.keselamatan');
     Route::get('/apd', [K3Controller::class, 'apd'])->name('k3.apd');
-    Route::get('/P3K', [K3Controller::class, 'pertolongan'])->name('k3.pertolongan');   
+    Route::get('/P3K', [K3Controller::class, 'pertolongan'])->name('k3.pertolongan');
+    Route::get('/organisasi', [K3Controller::class, 'organisasi'])->name('k3.organisasi'); 
+    Route::get('/risiko', [K3Controller::class, 'risiko'])->name('k3.risiko'); 
+    Route::get('/audit', [K3Controller::class, 'audit'])->name('k3.audit'); 
 });

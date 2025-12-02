@@ -276,8 +276,8 @@
 
         <!-- Tombol Kembali -->
         <div class="text-center mt-5">
-            <a href="{{ route('k3') }}" class="btn btn-family-green px-4 py-2 shadow-lg">
-                <i class="fas fa-arrow-left me-2"></i> Kembali ke Halaman Utama K3
+            <a href="{{ url('/k3#program-k3') }}" class="btn btn-family-green px-4 py-2 shadow-lg">
+                <i class="fas fa-arrow-left me-2"></i> Kembali ke Program K3
             </a>
         </div>
     </div>

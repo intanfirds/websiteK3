@@ -94,6 +94,9 @@
                         ['title' => 'Keselamatan Kerja', 'icon' => 'fas fa-hard-hat', 'route' => 'k3.keselamatan'],
                         ['title' => 'Alat Pelindung Diri (APD)', 'icon' => 'fas fa-shield-alt', 'route' => 'k3.apd'],
                         ['title' => 'Pertolongan Pertama Pada Kecelakaan Kerja (P3K)', 'icon' => 'fas fa-hand-paper', 'route' => 'k3.pertolongan'],
+                        ['title' => 'Struktur Organisasi', 'icon' => 'fas fa-sitemap', 'route' => 'k3.organisasi'],
+                        ['title' => 'Manajemen Risiko', 'icon' => 'fas fa-exclamation-triangle', 'route' => 'k3.risiko'],
+                        ['title' => 'Audit K3', 'icon' => 'fas fa-clipboard-check', 'route' => 'k3.audit'],
                     ];
                 @endphp
 

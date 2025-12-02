@@ -29,7 +29,7 @@
                                 K3 bukan sekadar kewajiban hukum, tetapi juga merupakan strategi penting untuk menjaga keberlanjutan usaha, melindungi karyawan, serta memastikan pelayanan terbaik bagi pelanggan.
                             </p>
                             <p class="text-muted">
-                                Di lingkungan ritel seperti <strong>Family Mart</strong>, penerapan K3 memiliki arti penting karena aktivitas kerja melibatkan interaksi langsung dengan pelanggan, penanganan produk makanan dan minuman, serta penggunaan peralatan operasional. 
+                                Di lingkungan ritel seperti Family Mart, penerapan K3 memiliki arti penting karena aktivitas kerja melibatkan interaksi langsung dengan pelanggan, penanganan produk makanan dan minuman, serta penggunaan peralatan operasional. 
                                 Dengan manajemen K3 yang baik, perusahaan mampu:
                             </p>
                             <ul class="text-muted small">
@@ -43,21 +43,26 @@
                             <!-- Sejarah -->
                             <h2 class="mt-5 mb-4 gradient-text">Sejarah K3 di Family Mart</h2>
                             <p class="text-muted">
-                                Sejak hadir di Indonesia, <strong>Family Mart</strong> berkomitmen menjadikan K3 sebagai bagian dari budaya perusahaan. 
-                                Sejarah penerapan K3 di Family Mart dapat dibagi dalam beberapa fase:
+                                Sejak hadir di Indonesia pada tahun 2012, Family Mart berkomitmen menjadikan 
+                                Keselamatan dan Kesehatan Kerja (K3) sebagai bagian dari budaya kerja untuk 
+                                melindungi karyawan dan pelanggan.
                             </p>
                             <ul class="text-muted small">
                                 <li>
-                                    <strong>Fase Awal (Tahun Berdiri):</strong> Fokus pada pelatihan dasar keselamatan kerja untuk karyawan baru serta penyediaan alat pelindung diri (APD) di area dapur, gudang, dan kasir.
+                                    <strong>Fase Awal:</strong> Penerapan pelatihan dasar keselamatan kerja dan penyediaan 
+                                    alat pelindung diri (APD) di area dapur, gudang, dan kasir.
                                 </li>
                                 <li>
-                                    <strong>Fase Penguatan (Beberapa Tahun Setelah Beroperasi):</strong> Mulai menerapkan standar operasional prosedur (SOP) yang lebih ketat, termasuk prosedur kebersihan, pengendalian kebakaran, dan evakuasi darurat.
+                                    <strong>Fase Penguatan:</strong> Pembentukan SOP kebersihan, penanganan darurat, 
+                                    serta pengendalian kebakaran di setiap gerai.
                                 </li>
                                 <li>
-                                    <strong>Fase Modernisasi:</strong> Integrasi sistem manajemen K3 dengan standar internasional, pelaksanaan audit rutin, pemeriksaan kesehatan karyawan, serta penyediaan pelatihan K3 secara berkala.
+                                    <strong>Fase Modernisasi:</strong> Integrasi manajemen K3 dengan standar internasional 
+                                    melalui audit rutin dan pelatihan berkala bagi seluruh karyawan.
                                 </li>
                                 <li>
-                                    <strong>Fase Berkelanjutan (Saat Ini):</strong> K3 menjadi prioritas utama untuk memastikan keselamatan pekerja dan pelanggan, dengan dukungan teknologi monitoring, program kesehatan, serta kampanye internal tentang budaya aman dan sehat.
+                                    <strong>Fase Berkelanjutan:</strong> Peningkatan budaya aman dengan dukungan teknologi, 
+                                    program kesehatan, dan kampanye keselamatan di lingkungan kerja.
                                 </li>
                             </ul>
                             <p class="text-muted">
@@ -68,13 +73,11 @@
                 </div>
             </div>
 
-            <!-- Tombol Kembali -->
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="{{ route('k3') }}" class="btn btn-family-green px-4 py-2 shadow-lg">
-                        <i class="fas fa-arrow-left me-2"></i> Kembali ke Halaman Utama K3
-                    </a>
-                </div>
+    <!-- Tombol Kembali -->
+            <div class="text-center mt-5">
+                <a href="{{ url('/k3#program-k3') }}" class="btn btn-family-green px-4 py-2 shadow-lg">
+                    <i class="fas fa-arrow-left me-2"></i> Kembali ke Program K3
+                </a>
             </div>
         </div>
     </section>

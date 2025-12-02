@@ -37,8 +37,8 @@
         </div>
     </section>
 
-    <!-- K3 Programs -->
-    <section class="section-padding bg-family-light-blue">
+   <!-- K3 Programs -->
+    <section id="program-k3" class="section-padding bg-family-light-blue">
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-12">
@@ -46,6 +46,7 @@
                     <p class="text-muted">Klik untuk melihat detail setiap program</p>
                 </div>
             </div>
+
             <div class="row">
                 @php
                     $programs = [
@@ -55,6 +56,9 @@
                         ['title' => 'Keselamatan Kerja', 'icon' => 'fas fa-hard-hat', 'route' => 'k3.keselamatan'],
                         ['title' => 'Alat Pelindung Diri (APD)', 'icon' => 'fas fa-shield-alt', 'route' => 'k3.apd'],
                         ['title' => 'Pertolongan Pertama Pada Kecelakaan Kerja (P3K)', 'icon' => 'fas fa-hand-paper', 'route' => 'k3.pertolongan'],
+                        ['title' => 'Struktur Organisasi', 'icon' => 'fas fa-sitemap', 'route' => 'k3.organisasi'],
+                        ['title' => 'Manajemen Risiko', 'icon' => 'fas fa-exclamation-triangle', 'route' => 'k3.risiko'],
+                        ['title' => 'Audit K3', 'icon' => 'fas fa-clipboard-check', 'route' => 'k3.audit'],
                     ];
                 @endphp
 
