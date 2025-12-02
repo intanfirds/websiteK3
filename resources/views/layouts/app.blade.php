@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Family Mart Indonesia - Company Profile')</title>
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+
     <style>
         :root {
             --family-green: #00A650;
@@ -20,17 +21,33 @@
             --family-light-blue: #E6F2FF;
             --family-light-green: #F0F9F0;
         }
-        
-        .bg-family-green { background-color: var(--family-green) !important; }
-        .bg-family-blue { background-color: var(--family-blue) !important; }
-        .bg-family-light-blue { background-color: var(--family-light-blue) !important; }
-        .bg-family-light-green { background-color: var(--family-light-green) !important; }
-        
-        .text-family-green { color: var(--family-green) !important; }
-        .text-family-blue { color: var(--family-blue) !important; }
-        
-        .btn-family-green { 
-            background-color: var(--family-green); 
+
+        .bg-family-green {
+            background-color: var(--family-green) !important;
+        }
+
+        .bg-family-blue {
+            background-color: var(--family-blue) !important;
+        }
+
+        .bg-family-light-blue {
+            background-color: var(--family-light-blue) !important;
+        }
+
+        .bg-family-light-green {
+            background-color: var(--family-light-green) !important;
+        }
+
+        .text-family-green {
+            color: var(--family-green) !important;
+        }
+
+        .text-family-blue {
+            color: var(--family-blue) !important;
+        }
+
+        .btn-family-green {
+            background-color: var(--family-green);
             color: white;
             border: none;
             padding: 12px 30px;
@@ -38,16 +55,16 @@
             border-radius: 8px;
             transition: all 0.3s ease;
         }
-        
+
         .btn-family-green:hover {
             background-color: #008040;
             color: white;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0, 166, 80, 0.3);
         }
-        
-        .btn-family-blue { 
-            background-color: var(--family-blue); 
+
+        .btn-family-blue {
+            background-color: var(--family-blue);
             color: white;
             border: none;
             padding: 12px 30px;
@@ -55,23 +72,23 @@
             border-radius: 8px;
             transition: all 0.3s ease;
         }
-        
+
         .btn-family-blue:hover {
             background-color: #004580;
             color: white;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0, 91, 172, 0.3);
         }
-        
+
         .navbar-brand img {
             max-height: 50px;
         }
-        
+
         .navbar {
             background: linear-gradient(135deg, var(--family-white) 0%, #f8f9fa 100%);
             box-shadow: 0 2px 20px rgba(0, 91, 172, 0.1);
         }
-        
+
         .nav-link {
             color: var(--family-blue) !important;
             font-weight: 500;
@@ -80,12 +97,13 @@
             border-radius: 6px;
             transition: all 0.3s ease;
         }
-        
-        .nav-link:hover, .nav-link.active {
+
+        .nav-link:hover,
+        .nav-link.active {
             background-color: var(--family-light-blue);
             color: var(--family-blue) !important;
         }
-        
+
         .hero-section {
             background: linear-gradient(135deg, var(--family-blue) 0%, var(--family-green) 100%);
             color: white;
@@ -93,7 +111,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .hero-section::before {
             content: '';
             position: absolute;
@@ -104,11 +122,11 @@
             background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" opacity="0.1"><circle cx="50" cy="50" r="2" fill="white"/></svg>');
             background-size: 50px 50px;
         }
-        
+
         .section-padding {
             padding: 80px 0;
         }
-        
+
         .k3-card {
             transition: transform 0.3s ease;
             border: none;
@@ -117,25 +135,25 @@
             border-top: 4px solid var(--family-green);
             overflow: hidden;
         }
-        
+
         .k3-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0, 91, 172, 0.2);
         }
-        
+
         .footer {
             background: linear-gradient(135deg, var(--family-blue) 0%, #004580 100%);
             color: white;
             padding: 50px 0 20px;
         }
-        
+
         .stat-number {
             font-size: 3rem;
             font-weight: bold;
             color: var(--family-green);
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         }
-        
+
         .k3-badge {
             background: linear-gradient(45deg, var(--family-green), var(--family-blue));
             color: white;
@@ -146,12 +164,12 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
-        
+
         .timeline {
             position: relative;
             padding-left: 30px;
         }
-        
+
         .timeline::before {
             content: '';
             position: absolute;
@@ -161,7 +179,7 @@
             width: 3px;
             background: linear-gradient(to bottom, var(--family-green), var(--family-blue));
         }
-        
+
         .timeline-item {
             position: relative;
             margin-bottom: 40px;
@@ -170,7 +188,7 @@
             border-radius: 10px;
             border-left: 4px solid var(--family-blue);
         }
-        
+
         .timeline-item::before {
             content: '';
             position: absolute;
@@ -183,20 +201,20 @@
             border: 4px solid white;
             box-shadow: 0 0 0 3px var(--family-green);
         }
-        
+
         .gradient-text {
             background: linear-gradient(45deg, var(--family-green), var(--family-blue));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        
+
         .section-title {
             position: relative;
             padding-bottom: 20px;
             margin-bottom: 40px;
         }
-        
+
         .section-title::after {
             content: '';
             position: absolute;
@@ -208,15 +226,33 @@
             background: linear-gradient(45deg, var(--family-green), var(--family-blue));
             border-radius: 2px;
         }
-        
+
         .contact-info .fa-2x {
             background: linear-gradient(45deg, var(--family-green), var(--family-blue));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+
+        /* Tambahkan di CSS yang sudah ada */
+        .btn-family-blue {
+            background: var(--family-blue);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn-family-blue:hover {
+            background: #1a3a6b;
+            color: white;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
@@ -228,7 +264,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('home') }}">Beranda</a>
                     </li>
@@ -307,7 +343,8 @@
             once: true
         });
     </script>
-    
+
     @yield('scripts')
 </body>
+
 </html>
