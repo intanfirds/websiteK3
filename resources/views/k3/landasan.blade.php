@@ -73,7 +73,6 @@
                             </div>
                             <p class="text-muted small">
                                 UU Kesehatan menegaskan bahwa makanan dan minuman harus aman untuk dikonsumsi. 
-                                Dalam konteks FamilyMart, ini sangat relevan untuk menjaga kualitas produk.
                             </p>
                             <ul class="text-muted small">
                                 <li>Pasal 21: Setiap produk wajib mencantumkan label komposisi & tanggal kadaluarsa.</li>
@@ -107,10 +106,10 @@
                 </div>
             </div>
 
-            <!-- Tombol Kembali -->
+           <!-- Tombol Kembali -->
             <div class="text-center mt-5">
-                <a href="{{ route('k3') }}" class="btn btn-family-green px-4 py-2 shadow-lg">
-                    <i class="fas fa-arrow-left me-2"></i> Kembali ke Halaman Utama K3
+                <a href="{{ url('/k3#program-k3') }}" class="btn btn-family-green px-4 py-2 shadow-lg">
+                    <i class="fas fa-arrow-left me-2"></i> Kembali ke Program K3
                 </a>
             </div>
         </div>

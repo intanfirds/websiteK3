@@ -40,4 +40,19 @@ class K3Controller extends Controller
     {
         return view('k3.pertolongan');
     }
+
+     public function organisasi()
+    {
+        return view('k3.organisasi');
+    }
+
+     public function risiko()
+    {
+        return view('k3.risiko');
+    }
+
+     public function audit()
+    {
+        return view('k3.audit');
+    }
 }

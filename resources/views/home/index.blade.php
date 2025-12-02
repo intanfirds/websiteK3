@@ -10,6 +10,17 @@
                 <div class="col-lg-8" data-aos="fade-right">
                     <h1 class="display-4 fw-bold mb-4">Keselamatan dan Kesehatan Kerja Prioritas Kami</h1>
                     <p class="lead mb-4">Family Mart berkomitmen menciptakan lingkungan kerja yang aman, sehat, dan nyaman bagi seluruh karyawan dan pelanggan dengan standar tertinggi.</p>
+                    <style>
+                        .btn-light {
+                        background: transparent;
+                        color: white;
+                        border: 1px solid white;
+                        }
+                        .btn-light:hover {
+                        background: white;
+                        color: black;
+                        }
+                    </style>
                     <a href="{{ route('k3') }}" class="btn btn-light btn-lg me-3">Pelajari K3 Kami</a>
                     <a href="{{ route('about') }}" class="btn btn-light btn-lg me-3">Tentang Kami</a>
                 </div>
@@ -22,11 +33,11 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
-                    <div class="stat-number">1,000+</div>
+                    <div class="stat-number">1000+</div>
                     <p class="text-family-blue fw-semibold">Toko di Seluruh Indonesia</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="stat-number">15,000+</div>
+                    <div class="stat-number">1600+</div>
                     <p class="text-family-blue fw-semibold">Karyawan Terlatih K3</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
@@ -83,6 +94,9 @@
                         ['title' => 'Keselamatan Kerja', 'icon' => 'fas fa-hard-hat', 'route' => 'k3.keselamatan'],
                         ['title' => 'Alat Pelindung Diri (APD)', 'icon' => 'fas fa-shield-alt', 'route' => 'k3.apd'],
                         ['title' => 'Pertolongan Pertama Pada Kecelakaan Kerja (P3K)', 'icon' => 'fas fa-hand-paper', 'route' => 'k3.pertolongan'],
+                        ['title' => 'Struktur Organisasi', 'icon' => 'fas fa-sitemap', 'route' => 'k3.organisasi'],
+                        ['title' => 'Manajemen Risiko', 'icon' => 'fas fa-exclamation-triangle', 'route' => 'k3.risiko'],
+                        ['title' => 'Audit K3', 'icon' => 'fas fa-clipboard-check', 'route' => 'k3.audit'],
                     ];
                 @endphp
 
